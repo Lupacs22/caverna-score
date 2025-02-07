@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Pontos - Caverna</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Caverna - Calculadora de Pontos</h1>
+    <form id="scoreForm">
+        <label>Pontos de Agricultura: <input type="number" id="agricultura" value="0"></label><br>
+        <label>Pontos de Mineração: <input type="number" id="mineracao" value="0"></label><br>
+        <label>Pontos de Construção: <input type="number" id="construcao" value="0"></label><br>
+        <label>Pontos de Comida: <input type="number" id="comida" value="0"></label><br>
+        <label>Pontos de Animais: <input type="number" id="animais" value="0"></label><br>
+        <button type="button" onclick="calcularPontos()">Calcular</button>
+    </form>
+    <h2>Pontuação Total: <span id="resultado">0</span></h2>
+    <script src="script.js"></script>
+</body>
+</html>
