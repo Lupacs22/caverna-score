@@ -13,3 +13,13 @@ label {
     display: block;
     margin-bottom: 10px;
 }
+.campo {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espaço entre os elementos */
+}
+
+.icone {
+    width: 50px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+}
